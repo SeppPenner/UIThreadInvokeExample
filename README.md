@@ -2,7 +2,6 @@ UIThreadInvokeExample
 ====================================
 
 UIThreadInvokeExample is an example executable to check how to invoke a GUI action from a BackgroundWorker or Thread.
-The executable was written and tested in .Net 5.0.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/w0m5a7x272r0depq?svg=true)](https://ci.appveyor.com/project/SeppPenner/uithreadinvokeexample)
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/UIThreadInvokeExample.svg)](https://github.com/SeppPenner/UIThreadInvokeExample/issues)
