@@ -33,7 +33,7 @@ public partial class UiThreadInvokeTest : Form
 
         // Initialize the background worker
         this.worker.WorkerSupportsCancellation = true;
-        this.worker.DoWork += this.DoWork;
+        this.worker.DoWork += this.DoWork!;
 
         // Initialize the thread --> More simple than a background worker
         this.thread = new Thread(this.DoThreadWork);
